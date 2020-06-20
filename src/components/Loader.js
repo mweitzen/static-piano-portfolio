@@ -4,7 +4,7 @@ import styled from 'styled-components'
 import MainBody from '../views/MainBody'
 
 const LoaderBody = styled.div`
-  height: 50vh;
+  height: 75vh;
   width: 100%;
   display: flex;
   flex-direction: column;

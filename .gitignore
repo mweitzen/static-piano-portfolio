@@ -6,10 +6,11 @@ yarn.lock
 yarn-error.log
 yar-error*
 node_modules
-build
+
+dist
+dist/*
 
 # project
 .env
 tmp
 tmp/*
-

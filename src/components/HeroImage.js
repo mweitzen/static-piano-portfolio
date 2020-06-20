@@ -7,7 +7,12 @@ const HeroContainer = styled.div`
   position: relative;
   padding-top: 66.66%;
   border: 1px solid #666666;
+  max-height: calc(700px * .6666);
   z-index: -2;
+  overflow: hidden;
+  @media (min-width: 733px) {
+    padding-top: calc(700px * (2/3))
+  }
 `
 
 const HeroImg = styled.img`

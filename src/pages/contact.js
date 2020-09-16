@@ -56,9 +56,25 @@ const ContactField = (props) => {
   )
 }
 
+const ContactInfo = styled.div`
+  text-align: center;
+  margin-bottom: 32px;
+`
+
 const Main = (props) => (
   <MainBody>
     <h1>Contact Me</h1>
+    <ContactInfo>
+      <h3>Email</h3>
+      <a href="mailto:mweitzenhoffer@gmail.com">mweitzenhoffer@gmail.com</a>
+      <h3>Facebook</h3>
+      <a href="https://m.me/mweitzenhoffer" target="_blank">
+        Message Me
+      </a>
+    </ContactInfo>
+    <h4>or</h4>
+    <h3>Leave a Message</h3>
+    <br/>
   {/*  <p>There should be a CTA that lets someone "Request a booking"/"Book me" or "Schedule a call".</p> */}
     <ContactForm as={"form"} name="contact" action="/" netlify-honeypot="title" data-netlify="true" >
       <Field>

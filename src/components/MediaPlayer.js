@@ -29,7 +29,7 @@ import {
 
 const Box = styled.div`
   width: 100%;
-  max-width: 460px;
+  max-width: 640px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -41,6 +41,9 @@ const Player = styled.div`
   margin-top: 20px;
   margin-bottom: 20px;
   background: #f1f1f1;
+  @media (max-width: 460px) {
+    height: 240px;
+  }
 `
 
 const Controls = styled.div`
@@ -55,10 +58,10 @@ const SongBox = styled.div`
   display: flex;
   flex-direction: column;
   text-align: center;
-  width: 80%;
+  width: 90%;
   transition: width 0.5s ease-in;
   @media (min-width: 460px) {
-    width: 300px;
+    width: 400px;
   }
 `
 

@@ -13,7 +13,7 @@ import MainBody from '../views/MainBody'
 import SkillsList from '../components/SkillsList';
 import HeroOverlay from '../components/HeroOverlay';
 import HeroImage from '../components/HeroImage';
-import HeroImg from '../assets/img/me2.jpg';
+import HeroImg from '../assets/img/me6.jpg';
 
 const inStudio = [
   "Strong and creative improvisation",
